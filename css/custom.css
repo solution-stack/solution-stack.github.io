@@ -9,3 +9,16 @@
 .shadow {
 	background-color:rgba(0, 0, 0, 0.5);
 }
+
+.bg-primary {
+    color: #fff;
+    background-color: #182B4B;
+}
+
+.text-primary {
+    color: #D91F26;
+}
+
+.text-vertical-center h1 {
+    color: #182B4B;
+}
