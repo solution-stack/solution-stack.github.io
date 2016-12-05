@@ -22,3 +22,12 @@
 .text-vertical-center h1 {
     color: #182B4B;
 }
+
+a {
+    color: #182B4B;
+}
+
+a:focus, a:hover {
+    color: #D91F26;
+    text-decoration: underline;
+}
