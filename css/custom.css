@@ -1,33 +1,41 @@
-.text-vertical-center h1, h2,h3 {
-    color: #fff;
+.text-vertical-center h1, h2, h3 {
+	color: #fff;
 }
 
-.header-custom{
-	color:#337ab7;	
+.header-custom {
+	/* color:#337ab7; */
+	color: rgb(166, 190, 230);
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 4.5em;
+	font-weight: 700;
 }
 
 .shadow {
-	background-color:rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .bg-primary {
-    color: #fff;
-    background-color: #182B4B;
+	color: #fff;
+	background-color: #182B4B;
 }
 
 .text-primary {
-    color: #D91F26;
+	color: #D91F26;
 }
 
 .text-vertical-center h1 {
-    color: #182B4B;
+	color: #182B4B;
 }
 
 a {
-    color: #182B4B;
+	color: #182B4B;
 }
 
 a:focus, a:hover {
-    color: #D91F26;
-    text-decoration: underline;
+	color: #D91F26;
+	text-decoration: underline;
 }
