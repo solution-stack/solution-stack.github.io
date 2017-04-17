@@ -1,0 +1,36 @@
+<html>
+<head>
+<style type="text/css">
+	@media print
+	{    
+	    .no-print, .no-print *
+	    {
+	        display: none !important;
+	    }
+	}
+
+	#qrcode {
+	  width:160px;
+	  height:160px;
+	  margin:auto;
+	  margin-top: 20px;
+	}
+</style>
+<style type="text/css"></style>
+
+<script type="text/javascript" src="http://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body>
+<div class="no-print">
+	<input type="button" value="print" onclick="window.print();" />
+</div>
+<div id="qrcode">
+</div>
+<script type="text/javascript">
+	new QRCode(document.getElementById("qrcode"), "http://solutionstack.com.au");
+</script>
+
+
+
+</body>
+</html>
